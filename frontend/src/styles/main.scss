@@ -1,0 +1,23 @@
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Import Global Variables
+@import "variables";
+
+// Import all partials
+@import "index";
+
+// Global Styles
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
